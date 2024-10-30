@@ -1,0 +1,11 @@
+{
+  "name": "context-lift",
+  "version": "1.0.0",
+  "description": "Consolidate your project files for better AI context sharing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lance Days",
+  "license": "ISC"
+}
