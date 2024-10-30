@@ -3,9 +3,29 @@
   "version": "1.0.0",
   "description": "Consolidate your project files for better AI context sharing",
   "main": "index.js",
+  "bin": {
+    "context-lift": "./cli.js"
+  },
   "scripts": {
+    "start": "node cli.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "ai",
+    "context",
+    "file-management",
+    "claude",
+    "prompt-engineering",
+    "developer-tools"
+  ],
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "yargs": "^17.7.2"
+  },
   "author": "Lance Days",
-  "license": "ISC"
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "preferGlobal": true
 }
